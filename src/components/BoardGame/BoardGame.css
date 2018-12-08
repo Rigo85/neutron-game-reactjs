@@ -1,0 +1,55 @@
+.justify-content-center {
+    /* -ms-flex-pack: center!important; */
+    justify-content: center!important;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.header-row {
+    width: 50px;
+    padding: 0 0 0 0;
+}
+
+.header-col {
+    height: 50px;
+    width: 50px;
+    padding: 8px 0 0 0;
+}
+
+.border-chip {
+    border: 1px solid black;
+}
+
+.chip-a {
+    height: 46px;
+    width: 46px;
+    margin: 1px 0 0 1px;
+}
+
+.board {
+    width: 325px;
+    height: 325px;
+}
+
+a {
+    text-align: center;
+}
+
+.height-limiter {
+    height: 210px;
+    width: 250px;
+    overflow-y:scroll;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
