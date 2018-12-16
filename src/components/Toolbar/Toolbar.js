@@ -25,7 +25,7 @@ const Toolbar = (props) => {
     };
 
     return (
-        <Navbar brand='Neutron Game' right>
+        <Navbar brand='Neutron' right>
             <NavItem href='/' sidenavtext="New game"><Icon>add_box</Icon></NavItem>
             <NavItem href='/' sidenavtext="Save game"><Icon>save</Icon></NavItem>
             <NavItem href='/' sidenavtext="Load game"><Icon>file_upload</Icon></NavItem>
