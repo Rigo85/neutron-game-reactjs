@@ -1,5 +1,3 @@
-'use strict';
-
 class FullMove {
 
     constructor(moves, score) {

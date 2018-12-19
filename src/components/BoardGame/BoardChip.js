@@ -44,12 +44,12 @@ function Chip({ pieceKind, row, col, userData, setUserData }) {
         <Spring
             native
             from={{
-                fill: ChipKind[pieceKind].color(chip ? chip.toggle : false),
-                rotate: (chip ? chip.toggle : false) ? '0deg' : '180deg'
+                fill: ChipKind[pieceKind].color(chip.toggle),
+                rotate: chip.toggle ? '0deg' : '180deg'
             }}
             to={{
-                fill: ChipKind[pieceKind].color(chip ? chip.toggle : false),
-                rotate: (chip ? chip.toggle : false) ? '0deg' : '180deg'
+                fill: ChipKind[pieceKind].color(chip.toggle),
+                rotate: chip.toggle ? '0deg' : '180deg'
             }}
             toggle={handleToggleAction}
             children={child}

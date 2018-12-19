@@ -1,5 +1,3 @@
-'use strict';
-
 class Move {
 
     constructor(row, col, kind) {
