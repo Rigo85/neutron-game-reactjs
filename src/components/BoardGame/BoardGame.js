@@ -6,8 +6,6 @@ import Chip from "./BoardChip";
 
 import './BoardGame.css';
 
-
-
 function Board({ userData, setUserData }) {
     return [...Array(36).keys()].map(i => {
         const row = parseInt(i / 6);
@@ -18,7 +16,9 @@ function Board({ userData, setUserData }) {
 }
 
 function Movements({ userData }) {
-    const items = userData.movements.map((mov, i) => <li key={i}>{fullMoveToString(mov)}</li>);
+    const items = userData.movements
+        .map((mov, i) => <li key={i}>{fullMoveToString(mov)}</li>)
+        ;
 
     return <>
         <label>Movements</label>
